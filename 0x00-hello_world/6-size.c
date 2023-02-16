@@ -7,7 +7,7 @@
 
 /**
  *main - print the value
- *
+ *            print falue
  *
  *Returs = 0;
  */
