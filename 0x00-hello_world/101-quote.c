@@ -9,7 +9,7 @@
  *main - Prints the quots 
  *                  and numbers
  *
- *Return = Always is 0;
+ *Return = Always is 1.
  */
 int main(void)
 {
