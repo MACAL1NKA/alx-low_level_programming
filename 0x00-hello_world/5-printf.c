@@ -3,7 +3,7 @@
  * print strun 
  */
 
-#inclue <stdio.h>
+#include <stdio.h>
 
 /**
  *main - Prints a value
