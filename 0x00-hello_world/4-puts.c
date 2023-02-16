@@ -6,10 +6,10 @@
 #include <stdio.h>
 
 /**
- *main prints a string
+ *main - Prints main prints a string
  *            and flaue
  *
- *great work
+ *Return: Always 0.
  */
 int main(void)
 {
