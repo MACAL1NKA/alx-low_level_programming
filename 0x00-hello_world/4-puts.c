@@ -3,7 +3,7 @@
  * how to print 
  */
 #include <stdio.h>
-/*
+/**
  *main prints a string
  */ 
 int main()
