@@ -1,6 +1,6 @@
-/* 
- *this program show 
- * how to print 
+/*
+ *this program show
+ * how to print
  */
 
 #include <stdio.h>
@@ -10,12 +10,12 @@
  *            and flaue
  *
  *great work
- */ 
+ */
 int main()
 {
   
 	puts("\"Programming is like building a multilingual puzzle");
 
 	
-	return 0;
+	return (0);
 }
