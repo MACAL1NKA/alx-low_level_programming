@@ -6,10 +6,10 @@
 #include <stdio.h>
 
 /**
- *main - print the value
+ *main - Prints the value
  *            print falue
  *
- *Returs = 0;
+ *Return: Always 0.
  */
 int main(void)
 {
