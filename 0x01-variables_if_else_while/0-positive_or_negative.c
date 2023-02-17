@@ -7,6 +7,10 @@
  *return = Alaways 0.
  */
 int main(void)
+/**
+ *Description - this main part print the negetive
+ *positive and zero
+ */
 {
 int n;
 
