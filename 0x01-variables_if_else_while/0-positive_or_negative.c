@@ -1,9 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
+/**
  *main - prints is the neber is positive or not
- *
+ *Description: this an a random program
  *Return: Alaways 0.
  */
 int main(void)
