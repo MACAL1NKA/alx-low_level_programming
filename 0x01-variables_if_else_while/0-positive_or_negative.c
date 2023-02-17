@@ -4,13 +4,9 @@
 /*
  *main - prints is the neber is positive or not
  *
- *return = Alaways 0.
+ *Return: Alaways 0.
  */
 int main(void)
-/**
- *Description - this main part print the negetive
- *positive and zero
- */
 {
 int n;
 
