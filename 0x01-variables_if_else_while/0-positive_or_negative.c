@@ -2,30 +2,30 @@
 #include <time.h>
 #include <stdio.h>
 /*
- *main - prints is the neber is positive or not 
+ *main - prints is the neber is positive or not
  *
  *return = Alaways 0.
  */
 int main(void)
 {
-  int n;
+int n;
 
-  srand(time(0));
-  n = rand() - RAND_MAX /2;
-  if (n>0)
-    {
-      printf("%d is possitive\n",n);
-    }
-  else
-    {
-      if (n<0)
-	{
-	  printf("%d is negative\n",n);
-	}
-      else
-	{
-	  printf("%d is zero\n",n);
-	}
-    }
-  return (0);
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+if (n > 0)
+{
+printf("%d is possitive\n" , n);
+}
+else
+{
+if (n < 0)
+{
+printf("%d is negative\n" , n);
+}
+else
+{
+printf("%d is zero\n" , n);
+}
+}
+return (0);
 }
