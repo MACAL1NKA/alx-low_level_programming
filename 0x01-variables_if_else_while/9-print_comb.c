@@ -12,7 +12,9 @@ int number;
 	{
 	    putchar((number % 10) + '0');
 	    if (number == 9)
+	    {
 	        continue;
+	    }
 	    putchar(',');
 	    putchar(' ');
 	}
