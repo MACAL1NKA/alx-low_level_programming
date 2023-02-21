@@ -6,7 +6,7 @@
 /**
  * _isalpha - returnst 1 if alpha or not
  * @c: charecter
- * Retur: 1 if true or 0 if false.
+ * Return: 1 if true or 0 if false.
  */
 
 int _isalpha(int c)
