@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * main - check the code
- *Desc: this prints the alphabets
- * Return: Always 0.
+ *print_alphabet - Prints all the alpahbet in small case 
+ *
  */
 
 void print_alphabet(void)
