@@ -4,7 +4,7 @@
  * main - Prints one line 
  *
  * Return: Always 0.
- * /
+ */
 int main(void)
 {
 
