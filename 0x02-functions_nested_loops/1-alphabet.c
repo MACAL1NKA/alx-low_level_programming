@@ -2,7 +2,7 @@
 
 /**
  * main - check the code
- *
+ *Desc: this prints the alphabets
  * Return: Always 0.
  */
 
