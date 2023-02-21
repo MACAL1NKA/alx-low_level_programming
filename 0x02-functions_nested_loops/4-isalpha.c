@@ -4,7 +4,7 @@
 #include <stdlib.h>
 
 /**
- * _isalph - returnst 1 if alpha or not
+ * _isalpha - returnst 1 if alpha or not
  * @c: charecter
  * Retur: 1 if true or 0 if false.
  */
@@ -12,7 +12,7 @@
 int _isalpha(int c)
 {
 	if (isalpha(c) != 0)
-        	return (1);
+		return (1);
 	else
 		return (0);
 }
