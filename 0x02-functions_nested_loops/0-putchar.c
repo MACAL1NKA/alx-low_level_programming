@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Prints one line 
+ * main - Prints one line
  *
  * Return: Always 0.
  */
