@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - test fuction.
+ * main - tests fuction.
  * Return: 0.
  */
 
