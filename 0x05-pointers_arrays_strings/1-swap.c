@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- *void swap_int - swaps tow values with difrent varfiable.
+ *swap_int - swaps tow values with difrent varfiable.
  * @a: first inbut
  * @b: second input
  * Return: no
