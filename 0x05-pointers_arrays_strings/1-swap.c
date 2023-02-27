@@ -3,7 +3,7 @@
 
 /**
  *void swap_int - swaps tow values with difrent varfiable.
- * @a: first inbut 
+ * @a: first inbut
  * @b: second input
  * Return: no
  */
