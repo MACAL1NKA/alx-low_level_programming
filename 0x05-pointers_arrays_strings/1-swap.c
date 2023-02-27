@@ -6,8 +6,10 @@
  * @a: first inbut 
  * @b: second input
  * Return: no
+ *
  */
 void swap_int(int *a, int *b)
+/* thsi will swapt a to b and b to a */
 {
 	int z = *a;
 	*a = *b;
