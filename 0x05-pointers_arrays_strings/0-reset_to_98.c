@@ -3,8 +3,11 @@
 
 /**
  * reset_to_98 - chechs some value
+ * @n: input number
+ *
+ * Return: nothing
  */
 void reset_to_98(int *n)
 {
-	printf("n=%p",&n);
+	*n = 98;
 }
