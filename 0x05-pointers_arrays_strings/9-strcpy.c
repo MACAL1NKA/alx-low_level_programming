@@ -3,7 +3,7 @@
 
 /**
  * _strcpy - print string of pinter
- * @dest: input 
+ * @dest: input
  * @src: input
  * Return: @dest
  */
