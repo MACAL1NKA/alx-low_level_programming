@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * _atoi - print more 
+ * _atoi - print more
  * @s: input string
- * Rerurn: i value
+ * Return: A integer
  */
 int _atoi(char *s)
 
