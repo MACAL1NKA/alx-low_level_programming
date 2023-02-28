@@ -27,6 +27,6 @@ int main(void)
 
 
 
-	printf("%s", password);
+	printf("Tada! Congrats");
 	return (0);
 }
