@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 
-/*
+/**
  * _atoi - print more
  * @s: input string
  * Return: A integer
