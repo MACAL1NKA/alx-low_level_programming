@@ -5,6 +5,7 @@
  * _strcpy - print string of pinter
  * @dest: input 
  * @src: input
+ * Return: @dest
  */
 char *_strcpy(char *dest, char *src)
 {
