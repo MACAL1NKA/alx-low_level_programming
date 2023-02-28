@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- *
- *
+ *puts_half - print half of the string
+ *@str: input string
  */
 void puts_half(char *str)
 
@@ -13,7 +13,9 @@ void puts_half(char *str)
 	int k;
 
     while (str[j] != '\0')
+	}
 	    j++;
+	}
 
 	if (j % 2 == 1)
 	{
@@ -21,9 +23,13 @@ void puts_half(char *str)
 	    k += 1;
 	}
 	else
+	{
 	    k = j / 2;
+	}
 
 	for (; k < j; k++)
+	{
 	    _putchar(str[k]);
+	}
 	_putchar('\n');
 }
