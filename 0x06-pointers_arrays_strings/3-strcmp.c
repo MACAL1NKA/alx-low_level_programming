@@ -8,7 +8,7 @@
  */
 int _strcmp(char *s1, char *s2)
 {
-	int a = 0, b = 0, c = 0, r = 0, l;
+	int a = 0, b = 0, c = 0, r = 0, lim;
 
 	while (s1[a])
 	{
@@ -22,14 +22,14 @@ int _strcmp(char *s1, char *s2)
     printf("a =%d b=%d c=%d\n",a,b,c);
 	if (a <= b)
 	{
-		l = a;
+		lim = a;
 	}
 	else
 	{
-		l = b;
+		lim = b;
 	}
 
-	while (c <= l)
+	while (c <= lim)
 	{
 		if (s1[c] == s2[c])
 		{
