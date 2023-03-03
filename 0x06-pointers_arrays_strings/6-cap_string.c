@@ -9,8 +9,12 @@ char *cap_string(char *s)
 {
 	int i = 0;
 
+<<<<<<< HEAD
 	
 	while (s[i] != '\0')
+=======
+	while (i != '\0')
+>>>>>>> b59396d9efe4e8bf31ca7a66271f0e7d029c1a29
 	{
 		
 		if (s[i] >= 97 && s[i] <= 122)
