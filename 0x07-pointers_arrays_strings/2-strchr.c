@@ -5,7 +5,7 @@
  * @s: input string 
  * @c: finding char
  * Return: @s if true else null
- * /
+ */
 char *_strchr(char *s, char c)
 {
     int i = 0;
