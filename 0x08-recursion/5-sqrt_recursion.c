@@ -1,11 +1,11 @@
 #include "main.h"
 #include <stdio.h>
+int _sqrt(int n, int i);
 /**
  *_sqrt_recursion - fucion
  *@n: input number
  *Return: the sqrt
  */
-int _sqrt(int n, int i);
 
 int _sqrt_recursion(int n)
 {

@@ -1,11 +1,11 @@
 #include "main.h"
 #include <stdio.h>
+int check(int n, int i);
 /**
  *is_prime_number - chersh the prime number
  *@n: input numner
  *Return: o or 1 or -1
  */
-int check(int n, int i);
 
 int is_prime_number(int n)
 {
