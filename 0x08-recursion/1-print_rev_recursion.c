@@ -1,5 +1,5 @@
 #include "main.h"
-#include <strio.h>
+#include <stdio.h>
 /**
  *_print_rev_recursion - prints string in reverse
  *@S: input string
