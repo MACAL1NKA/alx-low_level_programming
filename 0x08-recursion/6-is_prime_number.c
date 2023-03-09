@@ -16,7 +16,7 @@ int is_prime_number(int n)
  *check - chech the prime number
  *@n: input
  *@i: reverance
- *Return: output 
+ *Return: output
  */
 int check(int n, int i)
 {
