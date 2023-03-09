@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio,h>
+#include <stdio.h>
 /**
  * wildcmp - two srg.
  * @s1: string 1.
