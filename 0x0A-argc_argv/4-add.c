@@ -11,7 +11,7 @@
 int main(int argc, char *argv[])
 {
 	int i;
-	long unsigned int j, sum;
+	unsigned int j, sum;
 	char *array;
 
 	if (argc > 1)
@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
 			sum += atoi(array);
 			array++;
 		}
-		printf("%ld\n", sum);
+		printf("%d\n", sum);
 	}
 	else
 	{
