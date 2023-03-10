@@ -16,13 +16,13 @@ int main(int argc, char *argv[])
 
 	if (argc > 1)
 	{
-		for (i = 0; i < argc; i++)
+		for (i = 1; i < argc; i++)
 		{
 			array = argv[i];
 
 			for (j = 0; j < strlen(array); j++)
 			{
-				if (array[j] < 49 || array[j] > 57)
+				if (array[j] < 48 || array[j] > 57)
 				{
 					printf("Error\n");
 					return (1);
