@@ -4,8 +4,8 @@
 
 /**
   * argstostr - converted
-  * @ac: the 
-  * @av: the 
+  * @ac: the
+  * @av: the
   *
   * Return: something
   */
