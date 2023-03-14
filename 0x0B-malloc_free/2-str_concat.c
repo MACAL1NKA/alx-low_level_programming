@@ -29,7 +29,7 @@ char *str_concat(char *s1, char *s2)
 	while (i < m)
 	{
 		if (i <= j)
-			str1[i] = s1[j];
+			str1[i] = s1[i];
 		if (i >= j)
 		{
 			str1[i] = s2[k];
