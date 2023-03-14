@@ -1,5 +1,5 @@
 #include "main.h"
-#include "stdlib.h"
+#include <stdlib.h>
 
 /**
  *_strdup - relocates the string
@@ -9,7 +9,7 @@
 
 char *_strdup(char *str)
 {
-	int j, i;
+	int j = 0, i = 0;
 	char *s;
 
 	if (str == NULL)
@@ -23,8 +23,8 @@ char *_strdup(char *str)
 	if (s == NULL)
 		return (NULL);
 
-	while (a < i)
-		s[a] = str[i];
-	s[a] = '\0';
+	while (j < i)
+		s[j] = str[i];
+	s[j] = '\0';
 	return (s);
 }
