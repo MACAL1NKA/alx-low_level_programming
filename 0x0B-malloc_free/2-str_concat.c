@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- *str_concat - adds two strings 
+ *str_concat - adds two strings
  *@s1: firsr
  *@s2: second
  *Return: diffrent thigs
