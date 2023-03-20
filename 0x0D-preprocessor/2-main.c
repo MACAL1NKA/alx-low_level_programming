@@ -3,9 +3,9 @@
 /**
  * main - prints file name
  *
- * Retrun: alsways 0
+ * Return: alsways 0
  */
-int main()
+int main(void)
 {
 #define FILE __BASE_FILE__
 	printf("%s\n", FILE);
