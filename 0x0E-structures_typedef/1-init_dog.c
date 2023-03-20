@@ -1,5 +1,6 @@
-#ifndef _HEADER_
-#define _HEADER_
+#include <stdio.h>
+#include "dog.h"
+
 /**
  * init_dog - initials a dog identity
  *@d: structure 
@@ -15,4 +16,3 @@ void init_dog(struct dog *d, char *name, float age, char *owner)
     d->owner = owner;
 }
 
-#endif
