@@ -1,5 +1,5 @@
-#ifndef _HEADER_
-#define _HEADER_
+#ifndef DOG
+#define DOG
 /**
  *struct dog - greated a doc profile
  *@name: name of dog
@@ -11,10 +11,10 @@ struct dog
 	char *name;
 	char *owner;
 	float age;
-}
+};
 
 /**
- *
+ * dog_t - is onther var
  */
 typedef struct dog dog_t;
 
