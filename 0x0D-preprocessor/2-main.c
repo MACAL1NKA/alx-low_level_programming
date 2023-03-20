@@ -3,7 +3,7 @@
 /**
  * main - prints file name
  *
- * Retrun?: alsways 0
+ * Retrun: alsways 0
  */
 int main()
 {
