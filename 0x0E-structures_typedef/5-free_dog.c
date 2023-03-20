@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdlib.h>
 #include "dog.h"
 /**
  *free_dog - makes free all dog var
@@ -7,7 +7,7 @@
  */
 void free_dog(dog_t *d)
 {
-	if (d != NULL)
+	if (d)
 	{
 		free(d->owner);
 		free(d->name);
