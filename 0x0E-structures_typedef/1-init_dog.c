@@ -2,7 +2,7 @@
 
 /**
  * init_dog - initials a dog identity
- *@d: structure 
+ *@d: structure
  *@name: first name
  *@age: actual age
  *@owner: actual aowner
@@ -10,7 +10,7 @@
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-if(d)
+if (d)
 {
 	d->name = name;
 	d->age = age;

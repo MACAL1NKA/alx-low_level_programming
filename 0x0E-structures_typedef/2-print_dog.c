@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * print_dog - this print dog infor
- *
+ *@d: new frame
  *Return: nothing
  *
  */
