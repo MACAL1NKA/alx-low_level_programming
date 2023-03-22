@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 /**
  * print_name - pointer to fuction
  * @f: pointrr fuction
