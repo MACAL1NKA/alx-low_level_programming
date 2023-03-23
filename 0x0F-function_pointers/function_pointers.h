@@ -18,3 +18,14 @@ int abs_is_98(int elem);
 
 
 int (*get_op_func(char *s))(int, int);
+
+/**
+ * enum bool - structure of bool
+ * @TRUE: 1
+ * @FALSE: 0
+ */
+typedef enum bool
+{
+    TRUE = 1,
+    FALSE = 0
+} bool;
