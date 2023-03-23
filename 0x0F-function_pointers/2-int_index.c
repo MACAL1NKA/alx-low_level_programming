@@ -20,7 +20,6 @@ if (array != NULL && size > 0 && cmp != NULL)
 		return (-1);
 	for (i = 0; i < size; i++)
 	{
-	printf("= %d\n",i);
 	b = cmp(array[i]);
 	if (b == TRUE)
 		return (i);
