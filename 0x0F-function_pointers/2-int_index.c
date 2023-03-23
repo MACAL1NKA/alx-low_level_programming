@@ -7,6 +7,7 @@
  * @array: input array
  * @size: size of the array
  * @cmp: forction to input
+ * Return: some thing -1
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
