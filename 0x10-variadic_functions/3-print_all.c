@@ -1,5 +1,6 @@
 #include <stdarg.h>
 #include <stdio.h>
+#include "variadic_functions.h"
 
 /**
  *_char - new char
@@ -59,9 +60,9 @@ void print_all(const char * const format, ...)
 	int i = 0, j = 0;
 	char *separator = "";
 	func_printer funcs[] = {
-		{"c", print_char},
-		{"i", print_int},
-		{"f", print_float},
+		{"c", _char},
+		{"i", _int},
+		{"f", _float},
 		{"s", print_string}
 	};
 	va_start(ap, format);
