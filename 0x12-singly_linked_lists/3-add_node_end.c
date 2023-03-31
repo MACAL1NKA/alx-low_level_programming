@@ -2,7 +2,7 @@
 
 /**
  * add_node_end - adds at the end
- * @head: head 
+ * @head: head
  * @str: sttring
  * Return: head address.
  */
